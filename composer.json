@@ -1,0 +1,34 @@
+{
+  "name": "tobycroft/zbuilder",
+  "description": "DolphinPHP's ZBuilder for ThinkPHP8.x 海豚PHP的快速构建表格个表单的构建器",
+  "type": "library",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.0",
+    "topthink/framework": "^6.0.0",
+    "topthink/think-view": "^1.0",
+    "topthink/think-image": "^1.0"
+  },
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "tobycroft\\zbuilder\\": "src/"
+    }
+  },
+  "extra": {
+    "think": {
+      "services": [
+        "tobycroft\\zbuilder\\ZbuilderService"
+      ],
+      "config": {
+        "zbuilder": "src/config.php"
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "2539",
+      "email": "2539@aerofsx.com"
+    }
+  ]
+}

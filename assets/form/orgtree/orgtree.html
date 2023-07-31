@@ -1,0 +1,17 @@
+<div class="form-group orgtree col-xs-{$_layout.xs|default='12'} col-sm-{$_layout.sm|default='12'} col-md-{$_layout.md|default='12'} col-lg-{$_layout.lg|default='12'} id="form_group_{$name}">
+    <label class="col-xs-12" for="{$name}">{$title|htmlspecialchars}</label>
+    <div class="col-sm-12">
+        <div class="form-control form-control__dept" data-url="{$url}" style="height: 51px;">
+            <div class="form-control__input">
+                <div class="js_party_select_result">
+                    <div class="js_party_select_result_list"></div>
+                    <a class="js_show_party_selector" href="javascript:;"></a>
+                    <input id="field-dept" data-name="{$name}" class="form-input field-dept" type="hidden"  name="{$name}" value="{$value|default=''}" style="display: none;">
+                </div>
+            </div>
+        </div>
+        {notempty name="tips"}
+        <div class="help-block">{$tips}</div>
+        {/notempty}
+    </div>
+</div>

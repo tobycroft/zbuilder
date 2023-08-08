@@ -2,7 +2,7 @@
   "name": "tobycroft/zbuilder",
   "description": "DolphinPHP's ZBuilder for ThinkPHP8.x 海豚PHP的快速构建表格个表单的构建器",
   "type": "library",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
     "php": ">=8.0",
     "topthink/framework": "^8.0.0",

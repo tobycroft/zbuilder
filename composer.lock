@@ -246,12 +246,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "0c3de4aa891b85fd94d863057832bfacd5b1c748"
+                "reference": "60f199441d17be4c05b64e859e665d3471f2fe5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/0c3de4aa891b85fd94d863057832bfacd5b1c748",
-                "reference": "0c3de4aa891b85fd94d863057832bfacd5b1c748",
+                "url": "https://api.github.com/repos/top-think/framework/zipball/60f199441d17be4c05b64e859e665d3471f2fe5d",
+                "reference": "60f199441d17be4c05b64e859e665d3471f2fe5d",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -310,7 +310,7 @@
                 "issues": "https://github.com/top-think/framework/issues",
                 "source": "https://github.com/top-think/framework/tree/8.0"
             },
-            "time": "2023-07-16T15:33:23+00:00"
+            "time": "2023-08-08T11:01:08+00:00"
         },
         {
             "name": "topthink/think-helper",

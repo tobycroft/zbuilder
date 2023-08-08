@@ -30,5 +30,6 @@
       "name": "2539",
       "email": "2539@aerofsx.com"
     }
-  ]
+  ],
+  "prefer-stable": true
 }
